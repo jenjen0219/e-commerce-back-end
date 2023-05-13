@@ -31,16 +31,14 @@ Product.init(
       allowNull: false,
       defaultValue: 10,
       validate: {
-        isDecimal: true
+        isNumeric: true
       }
-    }, 
+    },
     category_id: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.INTEGER,
       references: {
         model: 'category',
         key: 'id',
-        // unique is set to false since we want to be able to associate a category id to multiple products 
-        unique: false
       }
     }
   },
