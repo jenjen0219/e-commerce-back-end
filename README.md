@@ -1,16 +1,16 @@
 # E-Commerce Back End - Object Relational Mapping (ORM) 
 
 ## Description
-E-commerce takes up a large 
+E-commerce takes up a large portion of how people shop for their needs and wants. This project is the back end to an e-commerce website where there are various categories of which have multiple products. Each product then has their corresponding product tag that helps with further categorizing each item.  
 
 <br>
-I spent a lot of time on getting heroku set up, more than I'd like to admit but with some tutor help I was finally able to realize that part of my issue had been from me making multiple heroku projects. I also made the mistake of rearranging certain files that later on prevented me from properly routing from each page in the website. Even though users are not able to delete their notes (yet), I am still happy to see that users are being redirected to the right page, can have their previous notes appear, and create new notes! 
+There was starter code provided for this project with well-written instructions for how to build each column for every component within this database. However, I did run into some issues with properly setting up the category route. There was some back and forth among my research but I eventually figured it out! 
 <br>
 <br>
-Here is the heroku deployed website link! 
+There is no live link to this project, instead, here is a video of the program running the necessary back end functionality through Insonmia. 
 <br>
 
-[Deployed Link](https://nameless-mountain-32309.herokuapp.com/notes)
+[Video Link](https://drive.google.com/file/d/1H1eui9lRcmlpybfRVyAIS4JiHWTAloB4/view)
 
 ## Table of Contents
 - [Technologies](#technologies)
@@ -22,29 +22,30 @@ Here is the heroku deployed website link!
 HTML<br>
 CSS<br>
 JavaScript<br>
-Node.js<br>
 Express.js<br>
 JSON<br>
-Heroku
+MySQL<br>
+Sequalize <br>
+Express
 
 ## Installation
 
-N/A - use the link provided within the description. 
+```npm i ```
+<br>
+``` mysql -u root -p ```
+<br>
+``` source db/schema.sql ```
+<br>
+``` quit ```
+<br>
+``` npm run watch ```
 
 ## Usage
-- Homepage <br>
+- Insomnia results for all Tags <br>
 
-![screenshot of home page](/images/homePage11.png)
+![screenshot of tag results](/images/show.png)
 <br>
 
-- Creating Note <br>
-
-![screenshot of creating a new note](/images/creatingNote11.png)
-<br>
-
-- Saving Note <br>
-
-![screenshot of saved note](/images/savingNote11.png)
 
 
 
